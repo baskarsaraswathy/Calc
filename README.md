@@ -27,7 +27,6 @@ Publish the website in the given URL.
 ## PROGRAM :
 ```
 calc.html
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -79,7 +78,7 @@ calc.html
           
             .calculator-container {
                 width: 400px;
-                background-color:rgb(8, 8, 8);
+                background-color:rgb(185, 215, 63);
                 margin: 0 auto; 
                 margin-top: 250px;
                 text-align: center;
@@ -93,7 +92,7 @@ calc.html
                 margin: 10px; 
                 font-size: 20px; 
                 
-                background-color: darkred; 
+                background-color:darkred; 
                 color: white; 
                 border: none;
             }
@@ -106,8 +105,8 @@ calc.html
     padding-right: 50px;
     font-size: 20px;
     margin-bottom: 20px; 
-    border: solid black 0.5px;
-    color: black;
+    border: solid rgb(230, 146, 146) 0.5px;
+    color: rgb(230, 146, 146);
     width: 348px;
     height: 50px;
     display: flex;
@@ -119,6 +118,9 @@ calc.html
                 padding-top: 10px;
                 color:white;
                 font-size: 50px;
+            }
+            h2 {
+                color:bisque;
             }
             .redd {
                 background-color: brown;
@@ -135,7 +137,8 @@ calc.html
     </head>
 <body>
     <div class="calculator-container">
-        <h1>CALCULATOR</h1>
+        <h1>BASKAR J</h1>
+        <h2>REGISTER NO :23013386</h2>
         <div id="result">0</div>
         <button onclick="calculate(event);">7</button>
         <button onclick="calculate(event);">8</button>
@@ -146,7 +149,7 @@ calc.html
         <button onclick="calculate(event);">5</button>
         <button onclick="calculate(event);">6</button>
         <button class="bluee"  onclick="calculate(event);">*</button>
-        <button class="bluee"  onclick="calculate(event);">√ </button><br>
+        <button class="bluee"  onclick="calculate(event);">&radic;</button><br>
         <button onclick="calculate(event);">1</button>
         <button onclick="calculate(event);">2</button>
         <button onclick="calculate(event);">3</button>
@@ -164,8 +167,8 @@ calc.html
 
 ```
 ## OUTPUT:
-  
-![Alt text](<Screenshot (98).png>)
+  ![Alt text](<Screenshot (107).png>)
+![Alt text](<Screenshot (108).png>)
   
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
